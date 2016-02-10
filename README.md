@@ -3,7 +3,9 @@
 
 ## Installing
 ### vagrant
-    **vagrant up**
+* prerequisites:
+    * vagrant
+* git clone https://github.com/mihailv/nginxProxy-goWebnode.git && cd nginxProxy-goWebnode && **vagrant up**
 
 ## Default
 Will create (3)
