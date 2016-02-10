@@ -1,10 +1,10 @@
 # go-nginx_balancing
-go-nginx web balancing :  1lb -- 1-n go webnodes 
+Nginx proxy with multiple go webnodes :  1lb -- 1-n go webnodes 
 
 ## Installing
 ### vagrant
     clone the repo
-    vagrant up 
+    **vagrant up **
 
 ## Default
 Will create (3)
