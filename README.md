@@ -1,5 +1,5 @@
-# go-nginx_balancing
-Nginx proxy with multiple go webnodes :  1lb -- 1-n go webnodes 
+# Nginx proxy -- multiple go webnodes
+1lb -- 1-n go webnodes 
 
 ## Installing
 ### vagrant
