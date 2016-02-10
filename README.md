@@ -3,8 +3,7 @@
 
 ## Installing
 ### vagrant
-    clone the repo
-    **vagrant up **
+    **vagrant up**
 
 ## Default
 Will create (3)
