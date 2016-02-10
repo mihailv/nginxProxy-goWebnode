@@ -1,0 +1,17 @@
+upstream webnodes {
+		<%- @webnode_ips.split(',').each do |ip| %>
+			server <%= ip %>:8484;
+		<%- end -%>
+}
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server ipv6only=on;
+        root /usr/share/nginx/html;
+        index index.html index.htm;
+        server_name localhost;
+		# set balancing
+        location / {
+                proxy_pass http://webnodes;
+        }
+}
+
